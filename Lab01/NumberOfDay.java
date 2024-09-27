@@ -5,7 +5,6 @@ public class NumberOfDay {
         int month = 0;
         int year = 0;
         boolean check = false;
-
         while (!check) {
             System.out.print("Enter year: ");
             if (sc.hasNextInt()) {
@@ -20,7 +19,6 @@ public class NumberOfDay {
                 sc.next();
             }
         }
-
         check = false;
         while (!check) {
             System.out.print("Enter month: ");
@@ -41,7 +39,6 @@ public class NumberOfDay {
                 }
             }
         }
-
         int days = getDays(month, year);
         System.out.println("Number of days: " + days);
         sc.close();
