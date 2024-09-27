@@ -6,7 +6,6 @@ public class TwoNumbers {
         double a = sc.nextDouble();
         System.out.print("Enter number b: ");
         double b = sc.nextDouble();
-        
         System.out.println("Sum of two numbers is: " + (a+b));
         System.out.println("Difference of two numbers is: " + (a-b));
         System.out.println("Product of two numbers is: " + (a*b));
