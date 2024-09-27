@@ -18,7 +18,7 @@ public class SolvingEquation {
                 solveSecondDegreeEquation(sc);
                 break;
             default:
-                System.out.println("Invalid choice");
+                System.out.println("Invalid choice.");
         }
         sc.close();
     }
@@ -28,7 +28,6 @@ public class SolvingEquation {
         double a = sc.nextDouble();
         System.out.print("Enter coefficient b: ");
         double b = sc.nextDouble();
-
         if (a == 0) {
             System.out.println("Coefficient a cannot be 0.");
         } else {
@@ -50,11 +49,9 @@ public class SolvingEquation {
         double a22 = sc.nextDouble();
         System.out.print("Enter coefficient b2: ");
         double b2 = sc.nextDouble();
-
         double D = a11 * a22 - a21 * a12;
         double D1 = b1 * a22 - b2 * a12;
         double D2 = a11 * b2 - a21 * b1;
-
         if (D == 0) {
             if (D1 == 0 && D2 == 0) {
                 System.out.println("The system has infinitely many solutions.");
@@ -75,7 +72,6 @@ public class SolvingEquation {
         double b = sc.nextDouble();
         System.out.print("Enter coefficient c: ");
         double c = sc.nextDouble();
-
         if (a == 0) {
             System.out.println("Coefficient a cannot be 0.");
         } else {
