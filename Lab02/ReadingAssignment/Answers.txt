@@ -1,1 +1,2 @@
-
+Reading Assignment:  When should accessor methods be used?
+Answer: In my opinion, accessor methods shouldn’t be used unless absolutely necessary because these methods violate the encapsulation principle and one basic principle of OO systems is data abstraction. Using these methods would make your code harder to maintain. We can use a method to return an object in terms of an interface that the object implement because that interface isolates you from changes the implementing class. We can focus on the action not the information, don’t ask the information you need to do the work; ask the object that has the information to do the work for you.
